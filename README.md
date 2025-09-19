@@ -21,8 +21,6 @@ Once your server is running, you can use it like this:
 http://localhost:3000/?user=SADMAN30102001SAKIB&theme=radical
 ```
 
-![Example](http://localhost:3000/?user=SADMAN30102001SAKIB&theme=radical)
-
 ## 🚀 Quick Start
 
 ### 1. Clone & Install
