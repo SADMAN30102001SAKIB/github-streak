@@ -27,8 +27,8 @@ app.get('/', async (req, res) => {
     const { user, theme = 'default' } = req.query;
 
     if (!user) {
-      return res.status(400).json({
-        error: 'Username is required',
+      return res.json({
+        message: 'GitHub Streak Stats Service',
         usage: 'GET /?user=username&theme=theme_name',
         examples: [
             '/?user=SADMAN30102001SAKIB&theme=radical',

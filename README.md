@@ -28,8 +28,8 @@ http://localhost:3000/?user=SADMAN30102001SAKIB&theme=radical
 ### 1. Clone & Install
 
 ```bash
-git clone <your-repo-url>
-cd github-streak-stats
+git clone https://github.com/SADMAN30102001SAKIB/github-streak.git
+cd github-streak
 npm install
 ```
 
@@ -106,14 +106,15 @@ http://localhost:3000/?user=gaearon&theme=vue
 ## 🏗️ Project Structure
 
 ```
-github-streak-stats/
+github-streak/
 ├── src/
 │   ├── githubAPI.js          # GitHub GraphQL API integration
 │   ├── streakCalculator.js   # Streak calculation logic
 │   └── svgGenerator.js       # SVG generation with themes
 ├── themes/
 │   └── index.js              # Theme definitions
-├── .env                      # (make it)
+├── .env                      # Environment variables (create from .env.example)
+├── .env.example              # Environment template
 ├── server.js                 # Express.js server
 ├── package.json              # Dependencies & scripts
 └── README.md                 # This file
